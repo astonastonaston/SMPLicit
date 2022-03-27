@@ -79,7 +79,7 @@ class Options():
         # General options:
         # TODO Add high frequency model?
         #self._parser.add_argument('--path_checkpoints', type=str, default='/home/enric/cvpr21/model/checkpoints/')
-        path_SMPLicit = '/home/enric/cvpr21/SMPLicit/'
+        path_SMPLicit = 'D:/y3t2/SMPLicit/'
         self._parser.add_argument('--path_checkpoints', type=str, default=path_SMPLicit + 'checkpoints/')
         self._parser.add_argument('--path_cluster_files', type=str, default=path_SMPLicit + 'clusters/')
         self._parser.add_argument('--path_SMPL', type=str, default=path_SMPLicit + 'SMPLicit/utils/neutral_smpl_with_cocoplus_reg.txt')
